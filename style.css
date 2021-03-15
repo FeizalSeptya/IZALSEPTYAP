@@ -1,0 +1,16 @@
+.text3{
+    font-size: 250px;
+    color: black;
+}
+
+.kotak{
+    background-color: black;
+    color: wheat;
+}
+
+.produk{
+    border: 7px solid purple;
+    padding: 100px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
