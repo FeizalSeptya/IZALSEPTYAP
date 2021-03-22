@@ -14,3 +14,57 @@
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+
+
+
+
+/*Pertemuan Ketiga*/
+*{
+    font-family: Arial;
+}
+
+.selection-atas{
+    text-align: center;
+    color: green;
+}
+
+table,th,td{
+    border: 3px solid black;
+}
+
+
+.selection-bawah{
+    display: flex;
+    justify-content: center;
+}
+
+/* Tampilan Tablet*/
+@media(min-width: 768px) and (max-width: 992px){
+.selection-atas{
+    color: yellow;
+}
+}
+ 
+/* Desktop Device*/
+/* Media Query*/
+
+@media(min-width: 992px) {
+    .selection-atas{
+    color: red;
+        
+    }
+
+    .selection-bawah{
+        display: flex;
+        justify-content: start;
+    }
+}
+
+    .selection-tengah{
+        border: 1px solid black;
+        justify-content: center;
+        text-align: center;
+    }
